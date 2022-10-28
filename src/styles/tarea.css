@@ -1,0 +1,35 @@
+.tareaContenedor {
+    width: 500px;
+    min-height: 65px;
+    background-color: #19D1D4;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #158EB0;
+    border-radius: 26px;
+    cursor: pointer
+}
+
+.tareaTexto {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+.tareaIcono {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+.completada {
+    background-color: #F5B20A;
+    text-decoration: line-through;
+    
+}
+
+ 
